@@ -5,7 +5,8 @@ Create circular timelapses.
 ![Circular timelapse](examples/timecircle1.gif)
 
 Todo: fix that bug that you see in the gif above (the stripes). It's 2am and I
-still got other stuff to do before sleeping.
+still got other stuff to do before sleeping. (I already wasted 30 minutes
+throwing together the php script.)
 
 ## How to use
 
