@@ -3,8 +3,10 @@
 
 $time = 4; // seconds
 $fps = 20; // frames per second
+$memory = 2048; // megabytes RAM memory (caps maximum usage)
 
 $frames = $fps * $time;
+ini_set('memory_limit', "{$memory}M");
 
 if ($argc < 2) {
 	echo "Usage:\n";
